@@ -231,17 +231,65 @@
 
                 </nav>
                 <!-- End of Topbar -->
-
-
+                
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- 404 Error Text -->
-                    <div class="text-center">
-                        <div class="error mx-auto" data-text="404">404</div>
-                        <p class="lead text-gray-800 mb-5">Pagina no encontrada</p>
-                        <p class="text-gray-500 mb-0">PArece que encontraste un error en la matrix...</p>
-                        <a href="index.html">&larr; Volver al Panel</a>
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-2 text-gray-800">Usuario</h1>
+
+                    <!-- DataTales Example -->
+                    <div class="card shadow mb-4">
+                        
+                        <div class="card-body">
+                            <form method="post" action="usuarioListado.php">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="disabledInput">Codigo Usuario</label>
+                                        <input type="text" class="form-control" id="disabledInput" placeholder="admin"
+                                            disabled>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="basicInput">Nombre</label>
+                                        <input type="text" class="form-control" id="basicInput" placeholder="John">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="basicInput">Fecha de Nacimiento</label>
+                                        <input type="date" class="form-control" id="basicInput" placeholder="John">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="basicInput">Telefono</label>
+                                        <input type="text" class="form-control" id="basicInput" placeholder="###-###-####">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="basicInput">Cedula</label>
+                                        <input type="text" class="form-control" id="basicInput" placeholder="###-########-#">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="basicInput">Apellido</label>
+                                        <input type="text" class="form-control" id="basicInput" placeholder="Smith">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="basicInput">Correo</label>
+                                        <input type="email" class="form-control" id="basicInput" placeholder="example@gmail.com">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="basicInput">Direccion</label>
+                                        <input type="text" class="form-control" id="basicInput" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 d-flex justify-content-end">
+                                    <button type="submit" class="btn btn-primary me-1 mb-1">Enviar</button>
+                                </div>
+                            </div>
+                                </form>
+                        </div>
                     </div>
 
                 </div>
